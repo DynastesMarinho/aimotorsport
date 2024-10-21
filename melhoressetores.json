@@ -1,0 +1,12 @@
+{
+    "melhores_pilotos": {
+        "S1": "G. Casagrande",
+        "S2": "G. Casagrande",
+        "S3": "T. Camilo"
+    },
+    "melhores_tempos": {
+        "S1": 20.652,
+        "S2": 36.634,
+        "S3": 18.551
+    }
+}

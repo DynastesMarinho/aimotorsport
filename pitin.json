@@ -1,0 +1,74 @@
+[
+    {
+        "Driver": "T. Camilo",
+        "Volta": 7.0
+    },
+    {
+        "Driver": "F. Massa",
+        "Volta": 7.0
+    },
+    {
+        "Driver": "R. Mauricio",
+        "Volta": 7.0
+    },
+    {
+        "Driver": "A. Leist",
+        "Volta": 7.0
+    },
+    {
+        "Driver": "A. Abreu",
+        "Volta": 7.0
+    },
+    {
+        "Driver": "E. Barrichello",
+        "Volta": 7.0
+    },
+    {
+        "Driver": "G. Casagrande",
+        "Volta": 8.0
+    },
+    {
+        "Driver": "B. Baptista",
+        "Volta": 8.0
+    },
+    {
+        "Driver": "R. Barrichello",
+        "Volta": 8.0
+    },
+    {
+        "Driver": "A. Khodair",
+        "Volta": 8.0
+    },
+    {
+        "Driver": "N. Piquet Jr",
+        "Volta": 8.0
+    },
+    {
+        "Driver": "C. Ramos",
+        "Volta": 9.0
+    },
+    {
+        "Driver": "C. Bueno",
+        "Volta": 9.0
+    },
+    {
+        "Driver": "L. Foresti",
+        "Volta": 10.0
+    },
+    {
+        "Driver": "L. Kohl",
+        "Volta": 10.0
+    },
+    {
+        "Driver": "R. Zonta",
+        "Volta": 11.0
+    },
+    {
+        "Driver": "E. Elias",
+        "Volta": 11.0
+    },
+    {
+        "Driver": "J. Campos",
+        "Volta": 12.0
+    }
+]

@@ -1,0 +1,2467 @@
+[
+    {
+        "piloto": "R. Suzuki",
+        "nro_volta": 1,
+        "ultimo_tempo_volta": "1:26.792",
+        "media_tempos_volta": "Média dos tempos de volta: 86.792 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.000 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 2,
+        "ultimo_tempo_volta": "1:26.752",
+        "media_tempos_volta": "Média dos tempos de volta: 86.772 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.020 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 3,
+        "ultimo_tempo_volta": "1:26.614",
+        "media_tempos_volta": "Média dos tempos de volta: 86.719 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.076 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 4,
+        "ultimo_tempo_volta": "1:27.232",
+        "media_tempos_volta": "Média dos tempos de volta: 86.847 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.232 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 5,
+        "ultimo_tempo_volta": "1:26.836",
+        "media_tempos_volta": "Média dos tempos de volta: 86.845 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.207 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 6,
+        "ultimo_tempo_volta": "1:27.121",
+        "media_tempos_volta": "Média dos tempos de volta: 86.891 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.215 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 11, 12.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 7,
+        "ultimo_tempo_volta": "1:26.500",
+        "media_tempos_volta": "Média dos tempos de volta: 86.835 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.242 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 11, 12.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "D. Serra",
+        "nro_volta": 8,
+        "ultimo_tempo_volta": "1:26.541",
+        "media_tempos_volta": "Média dos tempos de volta: 86.798 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.246 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 11, 12.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 9,
+        "ultimo_tempo_volta": "1:27.663",
+        "media_tempos_volta": "Média dos tempos de volta: 86.895 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.357 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 10,
+        "ultimo_tempo_volta": "1:25.503",
+        "media_tempos_volta": "Média dos tempos de volta: 86.755 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.538 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 11,
+        "ultimo_tempo_volta": "1:26.531",
+        "media_tempos_volta": "Média dos tempos de volta: 86.735 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.517 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 12,
+        "ultimo_tempo_volta": "1:27.543",
+        "media_tempos_volta": "Média dos tempos de volta: 86.802 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.543 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 13,
+        "ultimo_tempo_volta": "1:26.057",
+        "media_tempos_volta": "Média dos tempos de volta: 86.745 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.558 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 14,
+        "ultimo_tempo_volta": "1:27.169",
+        "media_tempos_volta": "Média dos tempos de volta: 86.775 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.549 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 15,
+        "ultimo_tempo_volta": "1:26.702",
+        "media_tempos_volta": "Média dos tempos de volta: 86.770 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.530 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 16,
+        "ultimo_tempo_volta": "1:26.810",
+        "media_tempos_volta": "Média dos tempos de volta: 86.773 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.514 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 17,
+        "ultimo_tempo_volta": "1:26.518",
+        "media_tempos_volta": "Média dos tempos de volta: 86.758 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.502 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Petecof",
+        "nro_volta": 18,
+        "ultimo_tempo_volta": "1:26.417",
+        "media_tempos_volta": "Média dos tempos de volta: 86.739 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.494 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 19,
+        "ultimo_tempo_volta": "1:26.096",
+        "media_tempos_volta": "Média dos tempos de volta: 86.705 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.502 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Abreu",
+        "nro_volta": 20,
+        "ultimo_tempo_volta": "1:26.314",
+        "media_tempos_volta": "Média dos tempos de volta: 86.686 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.497 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 17, 18, 23, 24.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 21,
+        "ultimo_tempo_volta": "1:25.700",
+        "media_tempos_volta": "Média dos tempos de volta: 86.639 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 0.528 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 17, 18, 23, 24, 27, 28.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Suzuki",
+        "nro_volta": 22,
+        "ultimo_tempo_volta": "1:17.591",
+        "media_tempos_volta": "Média dos tempos de volta: 86.227 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 1.954 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 23,
+        "ultimo_tempo_volta": "1:17.853",
+        "media_tempos_volta": "Média dos tempos de volta: 85.863 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 2.563 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 24,
+        "ultimo_tempo_volta": "1:17.675",
+        "media_tempos_volta": "Média dos tempos de volta: 85.522 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 2.995 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 25,
+        "ultimo_tempo_volta": "1:17.771",
+        "media_tempos_volta": "Média dos tempos de volta: 85.212 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.305 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 26,
+        "ultimo_tempo_volta": "1:17.608",
+        "media_tempos_volta": "Média dos tempos de volta: 84.920 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.555 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 27,
+        "ultimo_tempo_volta": "1:17.781",
+        "media_tempos_volta": "Média dos tempos de volta: 84.655 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.740 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 28,
+        "ultimo_tempo_volta": "1:18.061",
+        "media_tempos_volta": "Média dos tempos de volta: 84.420 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.871 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 29,
+        "ultimo_tempo_volta": "1:18.035",
+        "media_tempos_volta": "Média dos tempos de volta: 84.200 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.978 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 30,
+        "ultimo_tempo_volta": "1:18.370",
+        "media_tempos_volta": "Média dos tempos de volta: 84.005 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.049 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 31,
+        "ultimo_tempo_volta": "1:18.358",
+        "media_tempos_volta": "Média dos tempos de volta: 83.823 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.106 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 32,
+        "ultimo_tempo_volta": "1:18.330",
+        "media_tempos_volta": "Média dos tempos de volta: 83.651 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.153 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 33,
+        "ultimo_tempo_volta": "1:18.151",
+        "media_tempos_volta": "Média dos tempos de volta: 83.485 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.197 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 34,
+        "ultimo_tempo_volta": "1:18.232",
+        "media_tempos_volta": "Média dos tempos de volta: 83.330 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.229 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 35,
+        "ultimo_tempo_volta": "1:18.108",
+        "media_tempos_volta": "Média dos tempos de volta: 83.181 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.258 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 36,
+        "ultimo_tempo_volta": "1:18.598",
+        "media_tempos_volta": "Média dos tempos de volta: 83.054 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.265 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 37,
+        "ultimo_tempo_volta": "1:18.638",
+        "media_tempos_volta": "Média dos tempos de volta: 82.934 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.268 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 17, 18, 23, 24."
+    },
+    {
+        "piloto": "G. Petecof",
+        "nro_volta": 38,
+        "ultimo_tempo_volta": "1:18.756",
+        "media_tempos_volta": "Média dos tempos de volta: 82.824 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.264 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 11, 12, 17, 18, 23, 24, 27, 28."
+    },
+    {
+        "piloto": "A. Abreu",
+        "nro_volta": 39,
+        "ultimo_tempo_volta": "1:18.929",
+        "media_tempos_volta": "Média dos tempos de volta: 82.725 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.254 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 11, 12, 17, 18, 23, 24, 27, 28."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 40,
+        "ultimo_tempo_volta": "1:19.147",
+        "media_tempos_volta": "Média dos tempos de volta: 82.635 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.237 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 11, 12, 17, 18, 23, 24, 27, 28."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 41,
+        "ultimo_tempo_volta": "1:20.552",
+        "media_tempos_volta": "Média dos tempos de volta: 82.584 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.198 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 7, 8, 9, 10, 11, 12, 17, 18, 23, 24, 27, 28, 31, 32."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 42,
+        "ultimo_tempo_volta": "1:19.678",
+        "media_tempos_volta": "Média dos tempos de volta: 82.515 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.171 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 17, 18, 23, 24, 27, 28, 29, 30, 31, 32."
+    },
+    {
+        "piloto": "Z. Muggiati",
+        "nro_volta": 43,
+        "ultimo_tempo_volta": "1:20.774",
+        "media_tempos_volta": "Média dos tempos de volta: 82.475 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.130 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 17, 18, 23, 24, 27, 28, 29, 30, 31, 32."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 44,
+        "ultimo_tempo_volta": "1:17.701",
+        "media_tempos_volta": "Média dos tempos de volta: 82.366 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.145 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 45,
+        "ultimo_tempo_volta": "1:17.937",
+        "media_tempos_volta": "Média dos tempos de volta: 82.268 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.150 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 46,
+        "ultimo_tempo_volta": "1:17.876",
+        "media_tempos_volta": "Média dos tempos de volta: 82.172 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.154 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 47,
+        "ultimo_tempo_volta": "1:17.891",
+        "media_tempos_volta": "Média dos tempos de volta: 82.081 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.156 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 39, 40."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 48,
+        "ultimo_tempo_volta": "1:17.759",
+        "media_tempos_volta": "Média dos tempos de volta: 81.991 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.159 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 39, 40."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 49,
+        "ultimo_tempo_volta": "1:17.532",
+        "media_tempos_volta": "Média dos tempos de volta: 81.900 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.164 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 50,
+        "ultimo_tempo_volta": "1:17.362",
+        "media_tempos_volta": "Média dos tempos de volta: 81.809 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.171 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 51,
+        "ultimo_tempo_volta": "1:17.743",
+        "media_tempos_volta": "Média dos tempos de volta: 81.730 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.168 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 52,
+        "ultimo_tempo_volta": "1:18.098",
+        "media_tempos_volta": "Média dos tempos de volta: 81.660 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.158 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 53,
+        "ultimo_tempo_volta": "1:18.127",
+        "media_tempos_volta": "Média dos tempos de volta: 81.593 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.146 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 54,
+        "ultimo_tempo_volta": "1:18.195",
+        "media_tempos_volta": "Média dos tempos de volta: 81.530 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.133 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 55,
+        "ultimo_tempo_volta": "1:18.027",
+        "media_tempos_volta": "Média dos tempos de volta: 81.466 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.122 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 56,
+        "ultimo_tempo_volta": "1:18.261",
+        "media_tempos_volta": "Média dos tempos de volta: 81.409 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.107 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 57,
+        "ultimo_tempo_volta": "1:17.755",
+        "media_tempos_volta": "Média dos tempos de volta: 81.345 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.099 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 58,
+        "ultimo_tempo_volta": "1:17.803",
+        "media_tempos_volta": "Média dos tempos de volta: 81.284 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.090 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42."
+    },
+    {
+        "piloto": "G. Petecof",
+        "nro_volta": 59,
+        "ultimo_tempo_volta": "1:17.886",
+        "media_tempos_volta": "Média dos tempos de volta: 81.226 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.079 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42."
+    },
+    {
+        "piloto": "A. Abreu",
+        "nro_volta": 60,
+        "ultimo_tempo_volta": "1:18.034",
+        "media_tempos_volta": "Média dos tempos de volta: 81.173 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.065 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 61,
+        "ultimo_tempo_volta": "1:17.827",
+        "media_tempos_volta": "Média dos tempos de volta: 81.118 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.054 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 62,
+        "ultimo_tempo_volta": "1:17.646",
+        "media_tempos_volta": "Média dos tempos de volta: 81.062 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.045 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 63,
+        "ultimo_tempo_volta": "1:17.816",
+        "media_tempos_volta": "Média dos tempos de volta: 81.011 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.033 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "Z. Muggiati",
+        "nro_volta": 64,
+        "ultimo_tempo_volta": "1:17.786",
+        "media_tempos_volta": "Média dos tempos de volta: 80.960 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.021 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 65,
+        "ultimo_tempo_volta": "1:17.778",
+        "media_tempos_volta": "Média dos tempos de volta: 80.911 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.010 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 66,
+        "ultimo_tempo_volta": "1:16.838",
+        "media_tempos_volta": "Média dos tempos de volta: 80.850 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.010 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 67,
+        "ultimo_tempo_volta": "1:16.794",
+        "media_tempos_volta": "Média dos tempos de volta: 80.789 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.010 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 68,
+        "ultimo_tempo_volta": "1:16.817",
+        "media_tempos_volta": "Média dos tempos de volta: 80.731 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.009 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 69,
+        "ultimo_tempo_volta": "1:16.970",
+        "media_tempos_volta": "Média dos tempos de volta: 80.676 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.005 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 70,
+        "ultimo_tempo_volta": "1:17.078",
+        "media_tempos_volta": "Média dos tempos de volta: 80.625 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.000 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 71,
+        "ultimo_tempo_volta": "1:17.175",
+        "media_tempos_volta": "Média dos tempos de volta: 80.576 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.992 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 72,
+        "ultimo_tempo_volta": "1:17.370",
+        "media_tempos_volta": "Média dos tempos de volta: 80.532 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.982 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 73,
+        "ultimo_tempo_volta": "1:17.202",
+        "media_tempos_volta": "Média dos tempos de volta: 80.486 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.973 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 74,
+        "ultimo_tempo_volta": "1:17.090",
+        "media_tempos_volta": "Média dos tempos de volta: 80.440 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.966 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 75,
+        "ultimo_tempo_volta": "1:17.159",
+        "media_tempos_volta": "Média dos tempos de volta: 80.397 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.957 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 76,
+        "ultimo_tempo_volta": "1:17.199",
+        "media_tempos_volta": "Média dos tempos de volta: 80.354 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.948 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 77,
+        "ultimo_tempo_volta": "1:17.605",
+        "media_tempos_volta": "Média dos tempos de volta: 80.319 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.935 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 78,
+        "ultimo_tempo_volta": "1:17.460",
+        "media_tempos_volta": "Média dos tempos de volta: 80.282 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.923 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 79,
+        "ultimo_tempo_volta": "1:17.551",
+        "media_tempos_volta": "Média dos tempos de volta: 80.248 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.910 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 80,
+        "ultimo_tempo_volta": "1:17.600",
+        "media_tempos_volta": "Média dos tempos de volta: 80.214 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.896 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Petecof",
+        "nro_volta": 81,
+        "ultimo_tempo_volta": "1:17.497",
+        "media_tempos_volta": "Média dos tempos de volta: 80.181 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.884 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Abreu",
+        "nro_volta": 82,
+        "ultimo_tempo_volta": "1:17.398",
+        "media_tempos_volta": "Média dos tempos de volta: 80.147 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.872 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 83,
+        "ultimo_tempo_volta": "1:17.502",
+        "media_tempos_volta": "Média dos tempos de volta: 80.115 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.859 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 84,
+        "ultimo_tempo_volta": "1:17.537",
+        "media_tempos_volta": "Média dos tempos de volta: 80.084 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.847 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 85,
+        "ultimo_tempo_volta": "1:17.597",
+        "media_tempos_volta": "Média dos tempos de volta: 80.055 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.833 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "Z. Muggiati",
+        "nro_volta": 86,
+        "ultimo_tempo_volta": "1:17.541",
+        "media_tempos_volta": "Média dos tempos de volta: 80.026 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.820 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 87,
+        "ultimo_tempo_volta": "1:17.573",
+        "media_tempos_volta": "Média dos tempos de volta: 79.998 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.807 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 88,
+        "ultimo_tempo_volta": "1:16.650",
+        "media_tempos_volta": "Média dos tempos de volta: 79.960 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.802 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 89,
+        "ultimo_tempo_volta": "1:16.778",
+        "media_tempos_volta": "Média dos tempos de volta: 79.924 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.796 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 90,
+        "ultimo_tempo_volta": "1:16.673",
+        "media_tempos_volta": "Média dos tempos de volta: 79.888 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.790 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 91,
+        "ultimo_tempo_volta": "1:16.725",
+        "media_tempos_volta": "Média dos tempos de volta: 79.853 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.783 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 92,
+        "ultimo_tempo_volta": "1:16.829",
+        "media_tempos_volta": "Média dos tempos de volta: 79.820 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.776 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 93,
+        "ultimo_tempo_volta": "1:16.932",
+        "media_tempos_volta": "Média dos tempos de volta: 79.789 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.767 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 94,
+        "ultimo_tempo_volta": "1:17.329",
+        "media_tempos_volta": "Média dos tempos de volta: 79.763 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.756 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 95,
+        "ultimo_tempo_volta": "1:16.811",
+        "media_tempos_volta": "Média dos tempos de volta: 79.732 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.748 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 96,
+        "ultimo_tempo_volta": "1:16.992",
+        "media_tempos_volta": "Média dos tempos de volta: 79.703 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.739 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 97,
+        "ultimo_tempo_volta": "1:16.946",
+        "media_tempos_volta": "Média dos tempos de volta: 79.675 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.730 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 98,
+        "ultimo_tempo_volta": "1:16.920",
+        "media_tempos_volta": "Média dos tempos de volta: 79.647 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.721 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 99,
+        "ultimo_tempo_volta": "1:16.968",
+        "media_tempos_volta": "Média dos tempos de volta: 79.620 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.712 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 100,
+        "ultimo_tempo_volta": "1:16.942",
+        "media_tempos_volta": "Média dos tempos de volta: 79.593 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.703 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 101,
+        "ultimo_tempo_volta": "1:17.223",
+        "media_tempos_volta": "Média dos tempos de volta: 79.569 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.692 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 102,
+        "ultimo_tempo_volta": "1:17.348",
+        "media_tempos_volta": "Média dos tempos de volta: 79.548 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.680 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Petecof",
+        "nro_volta": 103,
+        "ultimo_tempo_volta": "1:17.597",
+        "media_tempos_volta": "Média dos tempos de volta: 79.529 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.668 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Abreu",
+        "nro_volta": 104,
+        "ultimo_tempo_volta": "1:17.258",
+        "media_tempos_volta": "Média dos tempos de volta: 79.507 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.657 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 105,
+        "ultimo_tempo_volta": "1:17.249",
+        "media_tempos_volta": "Média dos tempos de volta: 79.485 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.646 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 106,
+        "ultimo_tempo_volta": "1:17.601",
+        "media_tempos_volta": "Média dos tempos de volta: 79.468 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.633 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 107,
+        "ultimo_tempo_volta": "1:17.495",
+        "media_tempos_volta": "Média dos tempos de volta: 79.449 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.621 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "Z. Muggiati",
+        "nro_volta": 108,
+        "ultimo_tempo_volta": "1:17.507",
+        "media_tempos_volta": "Média dos tempos de volta: 79.431 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.609 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "M. Gomes",
+        "nro_volta": 109,
+        "ultimo_tempo_volta": "1:17.517",
+        "media_tempos_volta": "Média dos tempos de volta: 79.414 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.597 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 110,
+        "ultimo_tempo_volta": "1:16.482",
+        "media_tempos_volta": "Média dos tempos de volta: 79.387 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.591 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 111,
+        "ultimo_tempo_volta": "1:16.574",
+        "media_tempos_volta": "Média dos tempos de volta: 79.362 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.585 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 112,
+        "ultimo_tempo_volta": "1:16.550",
+        "media_tempos_volta": "Média dos tempos de volta: 79.337 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.579 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 113,
+        "ultimo_tempo_volta": "1:16.692",
+        "media_tempos_volta": "Média dos tempos de volta: 79.313 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.572 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 114,
+        "ultimo_tempo_volta": "1:16.571",
+        "media_tempos_volta": "Média dos tempos de volta: 79.289 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.565 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 115,
+        "ultimo_tempo_volta": "1:16.627",
+        "media_tempos_volta": "Média dos tempos de volta: 79.266 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.558 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 116,
+        "ultimo_tempo_volta": "1:16.746",
+        "media_tempos_volta": "Média dos tempos de volta: 79.244 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.550 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 117,
+        "ultimo_tempo_volta": "1:16.844",
+        "media_tempos_volta": "Média dos tempos de volta: 79.224 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.542 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 118,
+        "ultimo_tempo_volta": "1:17.071",
+        "media_tempos_volta": "Média dos tempos de volta: 79.205 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.533 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 119,
+        "ultimo_tempo_volta": "1:16.910",
+        "media_tempos_volta": "Média dos tempos de volta: 79.186 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.524 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 120,
+        "ultimo_tempo_volta": "1:17.108",
+        "media_tempos_volta": "Média dos tempos de volta: 79.169 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.514 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 121,
+        "ultimo_tempo_volta": "1:17.021",
+        "media_tempos_volta": "Média dos tempos de volta: 79.151 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.505 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 122,
+        "ultimo_tempo_volta": "1:16.992",
+        "media_tempos_volta": "Média dos tempos de volta: 79.133 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.496 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 123,
+        "ultimo_tempo_volta": "1:17.013",
+        "media_tempos_volta": "Média dos tempos de volta: 79.116 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.487 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 124,
+        "ultimo_tempo_volta": "1:17.099",
+        "media_tempos_volta": "Média dos tempos de volta: 79.100 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.478 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Abreu",
+        "nro_volta": 125,
+        "ultimo_tempo_volta": "1:17.293",
+        "media_tempos_volta": "Média dos tempos de volta: 79.085 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.468 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 126,
+        "ultimo_tempo_volta": "1:17.408",
+        "media_tempos_volta": "Média dos tempos de volta: 79.072 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.457 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 127,
+        "ultimo_tempo_volta": "1:17.477",
+        "media_tempos_volta": "Média dos tempos de volta: 79.060 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.446 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 128,
+        "ultimo_tempo_volta": "1:17.428",
+        "media_tempos_volta": "Média dos tempos de volta: 79.047 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.436 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "Z. Muggiati",
+        "nro_volta": 129,
+        "ultimo_tempo_volta": "1:17.395",
+        "media_tempos_volta": "Média dos tempos de volta: 79.034 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.425 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "M. Gomes",
+        "nro_volta": 130,
+        "ultimo_tempo_volta": "1:17.518",
+        "media_tempos_volta": "Média dos tempos de volta: 79.022 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.415 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 131,
+        "ultimo_tempo_volta": "1:17.442",
+        "media_tempos_volta": "Média dos tempos de volta: 79.010 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.405 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 132,
+        "ultimo_tempo_volta": "1:16.558",
+        "media_tempos_volta": "Média dos tempos de volta: 78.992 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.398 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 133,
+        "ultimo_tempo_volta": "1:16.588",
+        "media_tempos_volta": "Média dos tempos de volta: 78.974 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.392 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 134,
+        "ultimo_tempo_volta": "1:16.926",
+        "media_tempos_volta": "Média dos tempos de volta: 78.958 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.384 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 135,
+        "pit_in": "Última volta foi um PIT IN na volta 135",
+        "media_tempos_volta": "Média dos tempos de volta: 78.958 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.384 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 136,
+        "ultimo_tempo_volta": "1:17.125",
+        "media_tempos_volta": "Média dos tempos de volta: 78.945 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.375 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 137,
+        "ultimo_tempo_volta": "1:17.160",
+        "media_tempos_volta": "Média dos tempos de volta: 78.932 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.366 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 138,
+        "pit_in": "Última volta foi um PIT IN na volta 138",
+        "media_tempos_volta": "Média dos tempos de volta: 78.932 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.366 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 139,
+        "ultimo_tempo_volta": "1:17.313",
+        "media_tempos_volta": "Média dos tempos de volta: 78.920 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.356 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 140,
+        "ultimo_tempo_volta": "1:17.189",
+        "media_tempos_volta": "Média dos tempos de volta: 78.907 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.347 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 141,
+        "pit_in": "Última volta foi um PIT IN na volta 141",
+        "media_tempos_volta": "Média dos tempos de volta: 78.907 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.347 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 142,
+        "ultimo_tempo_volta": "1:17.622",
+        "media_tempos_volta": "Média dos tempos de volta: 78.898 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.337 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 143,
+        "ultimo_tempo_volta": "1:17.417",
+        "media_tempos_volta": "Média dos tempos de volta: 78.887 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.328 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 144,
+        "ultimo_tempo_volta": "1:17.091",
+        "media_tempos_volta": "Média dos tempos de volta: 78.875 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.319 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 145,
+        "pit_in": "Última volta foi um PIT IN na volta 145",
+        "media_tempos_volta": "Média dos tempos de volta: 78.875 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.319 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 146,
+        "ultimo_tempo_volta": "1:17.066",
+        "media_tempos_volta": "Média dos tempos de volta: 78.862 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.311 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 147,
+        "ultimo_tempo_volta": "1:17.012",
+        "media_tempos_volta": "Média dos tempos de volta: 78.849 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.303 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "M. Gomes",
+        "nro_volta": 148,
+        "ultimo_tempo_volta": "1:17.403",
+        "media_tempos_volta": "Média dos tempos de volta: 78.839 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.294 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 149,
+        "ultimo_tempo_volta": "1:17.358",
+        "media_tempos_volta": "Média dos tempos de volta: 78.829 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.285 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "N. Piquet Jr",
+        "nro_volta": 150,
+        "ultimo_tempo_volta": "1:17.806",
+        "media_tempos_volta": "Média dos tempos de volta: 78.822 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.274 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Abreu",
+        "nro_volta": 151,
+        "pit_in": "Última volta foi um PIT IN na volta 151",
+        "media_tempos_volta": "Média dos tempos de volta: 78.822 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.274 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 152,
+        "pit_in": "Última volta foi um PIT IN na volta 152",
+        "media_tempos_volta": "Média dos tempos de volta: 78.822 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.274 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "L. Kohl",
+        "nro_volta": 153,
+        "ultimo_tempo_volta": "1:18.226",
+        "media_tempos_volta": "Média dos tempos de volta: 78.818 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.264 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 154,
+        "ultimo_tempo_volta": "1:17.644",
+        "media_tempos_volta": "Média dos tempos de volta: 78.810 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.254 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 155,
+        "pit_in": "Última volta foi um PIT IN na volta 155",
+        "media_tempos_volta": "Média dos tempos de volta: 78.810 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.254 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 156,
+        "ultimo_tempo_volta": "1:17.176",
+        "media_tempos_volta": "Média dos tempos de volta: 78.799 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.246 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 157,
+        "pit_in": "Última volta foi um PIT IN na volta 157",
+        "media_tempos_volta": "Média dos tempos de volta: 78.799 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.246 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 158,
+        "ultimo_tempo_volta": "1:17.240",
+        "media_tempos_volta": "Média dos tempos de volta: 78.788 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.237 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 159,
+        "ultimo_tempo_volta": "1:17.263",
+        "media_tempos_volta": "Média dos tempos de volta: 78.778 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.229 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 160,
+        "ultimo_tempo_volta": "1:16.768",
+        "media_tempos_volta": "Média dos tempos de volta: 78.765 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.222 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 161,
+        "ultimo_tempo_volta": "1:17.199",
+        "media_tempos_volta": "Média dos tempos de volta: 78.755 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.214 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 162,
+        "ultimo_tempo_volta": "1:17.765",
+        "media_tempos_volta": "Média dos tempos de volta: 78.748 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.205 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 163,
+        "ultimo_tempo_volta": "1:16.703",
+        "media_tempos_volta": "Média dos tempos de volta: 78.735 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.199 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 164,
+        "pit_in": "Última volta foi um PIT IN na volta 164",
+        "media_tempos_volta": "Média dos tempos de volta: 78.735 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.199 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "M. Gomes",
+        "nro_volta": 165,
+        "ultimo_tempo_volta": "1:16.882",
+        "media_tempos_volta": "Média dos tempos de volta: 78.723 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.192 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 166,
+        "ultimo_tempo_volta": "1:16.940",
+        "media_tempos_volta": "Média dos tempos de volta: 78.712 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.185 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 167,
+        "pit_in": "Última volta foi um PIT IN na volta 167",
+        "media_tempos_volta": "Média dos tempos de volta: 78.712 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.185 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "L. Kohl",
+        "nro_volta": 168,
+        "ultimo_tempo_volta": "1:18.533",
+        "media_tempos_volta": "Média dos tempos de volta: 78.711 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.175 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "N. Piquet Jr",
+        "nro_volta": 169,
+        "pit_in": "Última volta foi um PIT IN na volta 169",
+        "media_tempos_volta": "Média dos tempos de volta: 78.711 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.175 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 170,
+        "ultimo_tempo_volta": "1:48.310",
+        "media_tempos_volta": "Média dos tempos de volta: 78.897 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 3.936 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 317, 318.",
+        "consistencia": "O desvio padrão é baixo, indicando consistência no desempenho."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 171,
+        "ultimo_tempo_volta": "1:48.300",
+        "media_tempos_volta": "Média dos tempos de volta: 79.081 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 4.557 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 317, 318, 319, 320."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 172,
+        "ultimo_tempo_volta": "1:50.703",
+        "media_tempos_volta": "Média dos tempos de volta: 79.277 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 5.178 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 317, 318, 319, 320, 321, 322."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 173,
+        "ultimo_tempo_volta": "1:53.974",
+        "media_tempos_volta": "Média dos tempos de volta: 79.491 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 5.833 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 317, 318, 319, 320, 321, 322, 323, 324."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 174,
+        "ultimo_tempo_volta": "1:50.421",
+        "media_tempos_volta": "Média dos tempos de volta: 79.681 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.297 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 175,
+        "ultimo_tempo_volta": "1:51.300",
+        "media_tempos_volta": "Média dos tempos de volta: 79.874 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.743 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 7, 8, 9, 10, 11, 12, 17, 18, 23, 24, 27, 28, 29, 30, 31, 32, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 176,
+        "ultimo_tempo_volta": "1:16.521",
+        "media_tempos_volta": "Média dos tempos de volta: 79.854 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.728 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 17, 18, 23, 24, 27, 28, 29, 30, 31, 32, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 177,
+        "ultimo_tempo_volta": "1:16.891",
+        "media_tempos_volta": "Média dos tempos de volta: 79.836 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.711 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 17, 18, 23, 24, 27, 28, 29, 30, 31, 32, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 178,
+        "ultimo_tempo_volta": "1:17.239",
+        "media_tempos_volta": "Média dos tempos de volta: 79.820 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.694 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 179,
+        "ultimo_tempo_volta": "1:16.882",
+        "media_tempos_volta": "Média dos tempos de volta: 79.803 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.678 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 180,
+        "pit_in": "Última volta foi um PIT IN na volta 180",
+        "media_tempos_volta": "Média dos tempos de volta: 79.803 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.678 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 181,
+        "ultimo_tempo_volta": "1:16.766",
+        "media_tempos_volta": "Média dos tempos de volta: 79.785 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.662 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 182,
+        "ultimo_tempo_volta": "1:17.134",
+        "media_tempos_volta": "Média dos tempos de volta: 79.769 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.646 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "M. Gomes",
+        "nro_volta": 183,
+        "ultimo_tempo_volta": "1:16.790",
+        "media_tempos_volta": "Média dos tempos de volta: 79.752 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.630 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 184,
+        "ultimo_tempo_volta": "1:17.007",
+        "media_tempos_volta": "Média dos tempos de volta: 79.736 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.614 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 185,
+        "pit_in": "Última volta foi um PIT IN na volta 185",
+        "media_tempos_volta": "Média dos tempos de volta: 79.736 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.614 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "L. Kohl",
+        "nro_volta": 186,
+        "ultimo_tempo_volta": "1:20.825",
+        "media_tempos_volta": "Média dos tempos de volta: 79.742 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.596 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 187,
+        "ultimo_tempo_volta": "1:16.202",
+        "media_tempos_volta": "Média dos tempos de volta: 79.722 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.582 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 39, 40, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 188,
+        "ultimo_tempo_volta": "1:48.962",
+        "media_tempos_volta": "Média dos tempos de volta: 79.889 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.923 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 7, 8, 9, 10, 11, 12, 17, 18, 23, 24, 27, 28, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 189,
+        "ultimo_tempo_volta": "1:16.558",
+        "media_tempos_volta": "Média dos tempos de volta: 79.870 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 6.908 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 1, 2, 7, 8, 9, 10, 11, 12, 17, 18, 23, 24, 27, 28, 31, 32, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 190,
+        "ultimo_tempo_volta": "1:51.603",
+        "media_tempos_volta": "Média dos tempos de volta: 80.049 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.288 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 191,
+        "ultimo_tempo_volta": "1:16.600",
+        "media_tempos_volta": "Média dos tempos de volta: 80.030 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.272 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 23, 24, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 192,
+        "ultimo_tempo_volta": "1:50.160",
+        "media_tempos_volta": "Média dos tempos de volta: 80.198 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.591 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 193,
+        "ultimo_tempo_volta": "1:16.909",
+        "media_tempos_volta": "Média dos tempos de volta: 80.180 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.574 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 194,
+        "ultimo_tempo_volta": "1:54.101",
+        "media_tempos_volta": "Média dos tempos de volta: 80.367 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.961 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 195,
+        "ultimo_tempo_volta": "1:18.674",
+        "media_tempos_volta": "Média dos tempos de volta: 80.358 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.940 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 196,
+        "ultimo_tempo_volta": "1:17.538",
+        "media_tempos_volta": "Média dos tempos de volta: 80.343 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.921 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "Z. Muggiati",
+        "nro_volta": 197,
+        "ultimo_tempo_volta": "1:16.635",
+        "media_tempos_volta": "Média dos tempos de volta: 80.322 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.904 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 198,
+        "ultimo_tempo_volta": "1:16.527",
+        "media_tempos_volta": "Média dos tempos de volta: 80.302 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.887 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 199,
+        "ultimo_tempo_volta": "1:16.745",
+        "media_tempos_volta": "Média dos tempos de volta: 80.283 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.870 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 200,
+        "ultimo_tempo_volta": "1:16.471",
+        "media_tempos_volta": "Média dos tempos de volta: 80.262 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.854 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 201,
+        "ultimo_tempo_volta": "1:16.740",
+        "media_tempos_volta": "Média dos tempos de volta: 80.244 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.838 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 202,
+        "ultimo_tempo_volta": "1:16.475",
+        "media_tempos_volta": "Média dos tempos de volta: 80.224 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.822 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 203,
+        "pit_in": "Última volta foi um PIT IN na volta 203",
+        "media_tempos_volta": "Média dos tempos de volta: 80.224 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.822 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "M. Gomes",
+        "nro_volta": 204,
+        "ultimo_tempo_volta": "1:16.921",
+        "media_tempos_volta": "Média dos tempos de volta: 80.206 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.805 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 205,
+        "ultimo_tempo_volta": "1:17.202",
+        "media_tempos_volta": "Média dos tempos de volta: 80.191 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.787 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "L. Kohl",
+        "nro_volta": 206,
+        "pit_in": "Última volta foi um PIT IN na volta 206",
+        "media_tempos_volta": "Média dos tempos de volta: 80.191 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.787 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 207,
+        "ultimo_tempo_volta": "1:16.042",
+        "media_tempos_volta": "Média dos tempos de volta: 80.169 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.773 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 208,
+        "ultimo_tempo_volta": "1:16.041",
+        "media_tempos_volta": "Média dos tempos de volta: 80.148 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.758 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 209,
+        "ultimo_tempo_volta": "1:16.665",
+        "media_tempos_volta": "Média dos tempos de volta: 80.130 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.742 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 210,
+        "ultimo_tempo_volta": "1:16.403",
+        "media_tempos_volta": "Média dos tempos de volta: 80.111 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.727 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 211,
+        "ultimo_tempo_volta": "1:16.786",
+        "media_tempos_volta": "Média dos tempos de volta: 80.094 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.711 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 212,
+        "ultimo_tempo_volta": "1:51.681",
+        "media_tempos_volta": "Média dos tempos de volta: 80.254 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 8.012 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 213,
+        "ultimo_tempo_volta": "1:16.790",
+        "media_tempos_volta": "Média dos tempos de volta: 80.236 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.996 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 214,
+        "ultimo_tempo_volta": "1:16.906",
+        "media_tempos_volta": "Média dos tempos de volta: 80.220 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.979 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 215,
+        "ultimo_tempo_volta": "1:16.847",
+        "media_tempos_volta": "Média dos tempos de volta: 80.203 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.963 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 216,
+        "ultimo_tempo_volta": "1:16.858",
+        "media_tempos_volta": "Média dos tempos de volta: 80.186 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.946 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 217,
+        "ultimo_tempo_volta": "1:17.821",
+        "media_tempos_volta": "Média dos tempos de volta: 80.175 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.928 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "Z. Muggiati",
+        "nro_volta": 218,
+        "ultimo_tempo_volta": "1:17.032",
+        "media_tempos_volta": "Média dos tempos de volta: 80.159 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.912 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 219,
+        "ultimo_tempo_volta": "1:16.401",
+        "media_tempos_volta": "Média dos tempos de volta: 80.141 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.897 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "N. Piquet Jr",
+        "nro_volta": 220,
+        "ultimo_tempo_volta": "1:16.821",
+        "media_tempos_volta": "Média dos tempos de volta: 80.124 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.881 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 221,
+        "ultimo_tempo_volta": "1:16.677",
+        "media_tempos_volta": "Média dos tempos de volta: 80.108 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.865 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 222,
+        "ultimo_tempo_volta": "1:16.478",
+        "media_tempos_volta": "Média dos tempos de volta: 80.090 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.850 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 223,
+        "pit_in": "Última volta foi um PIT IN na volta 223",
+        "media_tempos_volta": "Média dos tempos de volta: 80.090 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.850 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 224,
+        "pit_in": "Última volta foi um PIT IN na volta 224",
+        "media_tempos_volta": "Média dos tempos de volta: 80.090 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.850 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "M. Gomes",
+        "nro_volta": 225,
+        "ultimo_tempo_volta": "1:17.119",
+        "media_tempos_volta": "Média dos tempos de volta: 80.076 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.834 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 226,
+        "ultimo_tempo_volta": "1:17.084",
+        "media_tempos_volta": "Média dos tempos de volta: 80.062 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.818 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 227,
+        "ultimo_tempo_volta": "1:16.365",
+        "media_tempos_volta": "Média dos tempos de volta: 80.044 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.804 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 228,
+        "ultimo_tempo_volta": "1:16.137",
+        "media_tempos_volta": "Média dos tempos de volta: 80.025 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.790 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 229,
+        "ultimo_tempo_volta": "1:16.509",
+        "media_tempos_volta": "Média dos tempos de volta: 80.009 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.775 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 230,
+        "ultimo_tempo_volta": "1:16.291",
+        "media_tempos_volta": "Média dos tempos de volta: 79.991 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.761 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 231,
+        "ultimo_tempo_volta": "1:16.615",
+        "media_tempos_volta": "Média dos tempos de volta: 79.976 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.746 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 232,
+        "ultimo_tempo_volta": "1:16.766",
+        "media_tempos_volta": "Média dos tempos de volta: 79.961 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.731 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 233,
+        "ultimo_tempo_volta": "1:16.873",
+        "media_tempos_volta": "Média dos tempos de volta: 79.946 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.716 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 234,
+        "ultimo_tempo_volta": "1:16.959",
+        "media_tempos_volta": "Média dos tempos de volta: 79.933 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.701 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394."
+    },
+    {
+        "piloto": "L. Foresti",
+        "nro_volta": 235,
+        "ultimo_tempo_volta": "1:50.744",
+        "media_tempos_volta": "Média dos tempos de volta: 80.074 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.960 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "V. Baptista",
+        "nro_volta": 236,
+        "ultimo_tempo_volta": "1:17.423",
+        "media_tempos_volta": "Média dos tempos de volta: 80.062 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.944 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "A. Khodair",
+        "nro_volta": 237,
+        "ultimo_tempo_volta": "1:18.016",
+        "media_tempos_volta": "Média dos tempos de volta: 80.053 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.927 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "E. Barrichello",
+        "nro_volta": 238,
+        "ultimo_tempo_volta": "1:17.683",
+        "media_tempos_volta": "Média dos tempos de volta: 80.042 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.911 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "Z. Muggiati",
+        "nro_volta": 239,
+        "ultimo_tempo_volta": "1:17.467",
+        "media_tempos_volta": "Média dos tempos de volta: 80.030 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.895 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "N. Piquet Jr",
+        "nro_volta": 240,
+        "ultimo_tempo_volta": "1:17.311",
+        "media_tempos_volta": "Média dos tempos de volta: 80.018 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.879 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "F. Fraga",
+        "nro_volta": 241,
+        "ultimo_tempo_volta": "1:16.364",
+        "media_tempos_volta": "Média dos tempos de volta: 80.002 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.866 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "G. Di Mauro",
+        "nro_volta": 242,
+        "ultimo_tempo_volta": "1:16.386",
+        "media_tempos_volta": "Média dos tempos de volta: 79.986 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.852 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "J. Campos",
+        "nro_volta": 243,
+        "pit_in": "Última volta foi um PIT IN na volta 243",
+        "media_tempos_volta": "Média dos tempos de volta: 79.986 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.852 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "M. Gomes",
+        "nro_volta": 244,
+        "ultimo_tempo_volta": "1:17.057",
+        "media_tempos_volta": "Média dos tempos de volta: 79.973 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.837 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "F. Baptista",
+        "nro_volta": 245,
+        "ultimo_tempo_volta": "1:17.626",
+        "media_tempos_volta": "Média dos tempos de volta: 79.962 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.821 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "T. Camilo",
+        "nro_volta": 246,
+        "ultimo_tempo_volta": "1:16.270",
+        "media_tempos_volta": "Média dos tempos de volta: 79.946 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.808 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "G. Casagrande",
+        "nro_volta": 247,
+        "ultimo_tempo_volta": "1:16.161",
+        "media_tempos_volta": "Média dos tempos de volta: 79.930 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.795 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "F. Massa",
+        "nro_volta": 248,
+        "ultimo_tempo_volta": "1:16.367",
+        "media_tempos_volta": "Média dos tempos de volta: 79.914 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.781 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "B. Baptista",
+        "nro_volta": 249,
+        "ultimo_tempo_volta": "1:16.406",
+        "media_tempos_volta": "Média dos tempos de volta: 79.899 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.768 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "R. Mauricio",
+        "nro_volta": 250,
+        "ultimo_tempo_volta": "1:16.502",
+        "media_tempos_volta": "Média dos tempos de volta: 79.884 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.754 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "C. Ramos",
+        "nro_volta": 251,
+        "ultimo_tempo_volta": "1:16.937",
+        "media_tempos_volta": "Média dos tempos de volta: 79.872 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.740 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 17, 18, 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436."
+    },
+    {
+        "piloto": "R. Zonta",
+        "nro_volta": 252,
+        "ultimo_tempo_volta": "1:49.793",
+        "media_tempos_volta": "Média dos tempos de volta: 80.000 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.966 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436, 467, 468."
+    },
+    {
+        "piloto": "R. Barrichello",
+        "nro_volta": 253,
+        "ultimo_tempo_volta": "1:16.967",
+        "media_tempos_volta": "Média dos tempos de volta: 79.987 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.952 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436, 467, 468."
+    },
+    {
+        "piloto": "A. Leist",
+        "nro_volta": 254,
+        "ultimo_tempo_volta": "1:16.907",
+        "media_tempos_volta": "Média dos tempos de volta: 79.974 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 7.937 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436, 467, 468."
+    },
+    {
+        "piloto": "E. Elias",
+        "nro_volta": 255,
+        "ultimo_tempo_volta": "1:51.921",
+        "media_tempos_volta": "Média dos tempos de volta: 80.108 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 8.187 segundos.",
+        "tendencia": "Os tempos de volta estão piorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436, 467, 468, 473, 474.",
+        "consistencia": "O desvio padrão é alto, indicando inconsistência no desempenho."
+    },
+    {
+        "piloto": "A. Abreu",
+        "nro_volta": 256,
+        "ultimo_tempo_volta": "1:16.914",
+        "media_tempos_volta": "Média dos tempos de volta: 80.095 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 8.172 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436, 467, 468, 473, 474.",
+        "consistencia": "O desvio padrão é alto, indicando inconsistência no desempenho."
+    },
+    {
+        "piloto": "C. Bueno",
+        "nro_volta": 257,
+        "ultimo_tempo_volta": "1:17.881",
+        "media_tempos_volta": "Média dos tempos de volta: 80.086 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 8.156 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436, 467, 468, 473, 474.",
+        "consistencia": "O desvio padrão é alto, indicando inconsistência no desempenho."
+    },
+    {
+        "piloto": "R. Suzuki",
+        "nro_volta": 258,
+        "ultimo_tempo_volta": "1:16.085",
+        "media_tempos_volta": "Média dos tempos de volta: 80.069 segundos.",
+        "desvio_padrao_tempos_volta": "Desvio padrão dos tempos de volta: 8.143 segundos.",
+        "tendencia": "Os tempos de volta estão melhorando.",
+        "voltas_lentas": "As voltas lentas foram: 317, 318, 319, 320, 321, 322, 323, 324, 325, 326, 327, 328, 349, 350, 353, 354, 357, 358, 361, 362, 393, 394, 435, 436, 467, 468, 473, 474.",
+        "consistencia": "O desvio padrão é alto, indicando inconsistência no desempenho."
+    },
+    {
+        "melhores_setores": {
+            "S1": 20.652,
+            "S2": 36.634,
+            "S3": 18.551
+        },
+        "melhores_pilotos": {
+            "S1": "G. Casagrande",
+            "S2": "G. Casagrande",
+            "S3": "T. Camilo"
+        }
+    }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "Desenv",
+  "version": "1.0.0",
+  "description": "Extração de Dados: Extrair os dados relevantes do arquivo HTML.\r Pré-processamento: Limpar e preparar os dados extraídos para o modelo de IA.\r Modelo de IA: Escolher um modelo de IA apropriado e treiná-lo com os dados.\r Avaliação e Testes: Avaliar o desempenho do modelo.\r Implementação: Implementar o modelo em um sistema que possa usá-lo para previsões ou classificações.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {}
+}

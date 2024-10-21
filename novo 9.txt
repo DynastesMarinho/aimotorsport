@@ -1,0 +1,52 @@
+Análise de Performance de G. Di Mauro
+Dados do Piloto
+
+    Nome: G. Di Mauro
+    Equipe: Cavaleiro Sp
+    Total de Voltas: 15
+    Melhor Tempo de Volta: 1:16.386 (Volta 3)
+    Pit Stop: Volta 10
+
+Performance por Volta
+Volta	Tempo
+1	1:17.500
+2	1:16.800
+3	1:16.386
+4	1:16.900
+5	1:17.200
+6	1:17.100
+7	1:18.000
+8	1:16.700
+9	1:16.900
+10	1:19.500
+11	1:16.800
+12	1:16.500
+13	1:17.300
+14	1:16.600
+15	1:18.200
+
+Pontos Fortes
+
+    Melhor Volta:
+    G. Di Mauro conseguiu sua melhor volta na Volta 3 com 1:16.386, o que é competitivo.
+
+    Consistência nas Voltas:
+    Ele manteve um desempenho sólido, com tempos de volta variados entre 1:16.386 e 1:19.500. As voltas 2, 4, 8 e 12 também mostraram um desempenho forte, todas em torno de 1:16.
+
+    Recuperação Após PIT:
+    Após o pit stop na Volta 10, ele voltou a ter um desempenho forte, com tempos na faixa de 1:16.800 e 1:16.500 nas voltas seguintes.
+
+Pontos Fracos
+
+    Tempo na Volta de PIT:
+    O tempo de 1:19.500 na Volta 10, onde ele fez o pit stop, é significativamente mais lento do que suas voltas anteriores. Isso é esperado, mas ainda assim impacta seu tempo total.
+
+    Variações de Tempo:
+    A Volta 7, com 1:18.000, foi a mais lenta fora do pit stop, indicando uma possível perda de performance que deve ser investigada.
+
+    Volta 15:
+    O tempo na Volta 15 foi 1:18.200, um pouco mais lento do que o esperado, o que pode indicar que o piloto estava se acomodando ou lidando com algum problema no carro.
+
+Resumo
+
+G. Di Mauro teve uma corrida bastante sólida, mostrando um bom tempo de volta e consistência. No entanto, o pit stop e algumas voltas mais lentas indicam áreas para melhorias. Focar na performance durante o pit stop e analisar a volta 7 pode ajudar a melhorar sua competitividade nas próximas corridas.

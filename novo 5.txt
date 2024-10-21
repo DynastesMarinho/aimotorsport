@@ -1,0 +1,141 @@
+Vamos criar um modelo de IA que utiliza as tarefas escolhidas com base na extração de dados do arquivo HTML. O modelo integrará **Classificação + Detecção de Anomalias**, **Regressão + Análise de Séries Temporais**, e **Clusterização + Classificação**. Para isso, usaremos as bibliotecas `pandas`, `BeautifulSoup`, `scikit-learn`, e `statsmodels`.
+
+### Estrutura do Código
+
+1. **Extração de Dados do HTML**: Usaremos BeautifulSoup para ler e extrair os dados de uma tabela no arquivo HTML.
+2. **Detecção de Anomalias**: Usaremos `IsolationForest` para detectar e remover anomalias nos tempos de volta.
+3. **Classificação**: Aplicaremos um classificador Random Forest para categorizar os pilotos.
+4. **Regressão**: Usaremos um regressor Random Forest para prever os tempos de volta.
+5. **Análise de Séries Temporais**: Usaremos ARIMA para prever como o desempenho dos pilotos pode mudar ao longo do tempo.
+6. **Clusterização**: Aplicaremos K-means para agrupar os pilotos com base em características de desempenho e depois usaremos um classificador para rotular novos pilotos.
+
+### Código Completo
+
+```python
+import pandas as pd
+from bs4 import BeautifulSoup
+from sklearn.ensemble import IsolationForest, RandomForestClassifier, RandomForestRegressor
+from sklearn.cluster import KMeans
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score, mean_squared_error
+import matplotlib.pyplot as plt
+from statsmodels.tsa.arima_model import ARIMA
+
+# Função para extrair dados da tabela HTML
+def extrair_dados_tabela(html_file):
+    with open(html_file, 'r', encoding='utf-8') as file:
+        soup = BeautifulSoup(file, 'html.parser')
+    tabela = soup.find('table')
+    linhas = tabela.find_all('tr')
+
+    dados = []
+    for linha in linhas:
+        colunas = linha.find_all('td')
+        dados_linha = [coluna.get_text(strip=True) for coluna in colunas]
+        if dados_linha:
+            dados.append(dados_linha)
+
+    colunas = [f'Coluna_{i+1}' for i in range(len(dados[0]))]
+    df = pd.DataFrame(dados, columns=colunas)
+    return df
+
+# Extraindo dados do arquivo HTML
+html_file = 'modelo.html'  # Substitua pelo caminho do seu arquivo
+dados_tabela = extrair_dados_tabela(html_file)
+
+# Conversão de colunas relevantes para tipos numéricos
+dados_tabela[['Coluna_1', 'Coluna_2', 'tempo_volta']] = dados_tabela[['Coluna_1', 'Coluna_2', 'tempo_volta']].astype(float)
+
+# 1. Classificação + Detecção de Anomalias
+# Detecção de anomalias nos tempos de volta
+X = dados_tabela[['tempo_volta']].values
+iso_forest = IsolationForest(contamination=0.1, random_state=42)
+dados_tabela['anomalies'] = iso_forest.fit_predict(X)
+
+# Filtrando dados normais
+dados_normais = dados_tabela[dados_tabela['anomalies'] == 1]
+
+# Classificação dos pilotos
+X_class = dados_normais[['Coluna_1', 'Coluna_2']]
+y_class = dados_normais['categoria_desempenho']  # Supondo que você tenha essa coluna
+
+# Separação treino/teste
+X_train_class, X_test_class, y_train_class, y_test_class = train_test_split(X_class, y_class, test_size=0.2, random_state=42)
+
+# Treinamento do classificador
+clf = RandomForestClassifier(n_estimators=100, random_state=42)
+clf.fit(X_train_class, y_train_class)
+
+# Previsão e acurácia
+y_pred_class = clf.predict(X_test_class)
+accuracy = accuracy_score(y_test_class, y_pred_class)
+print(f'Acurácia da classificação: {accuracy * 100:.2f}%')
+
+# 2. Regressão + Análise de Séries Temporais
+# Regressão para prever tempo de volta
+X_reg = dados_normais[['Coluna_1', 'Coluna_2']]
+y_reg = dados_normais['tempo_volta']
+
+# Separação treino/teste
+X_train_reg, X_test_reg, y_train_reg, y_test_reg = train_test_split(X_reg, y_reg, test_size=0.2, random_state=42)
+
+# Regressão Random Forest
+regressor = RandomForestRegressor(n_estimators=100, random_state=42)
+regressor.fit(X_train_reg, y_train_reg)
+
+# Previsão e erro quadrático médio
+y_pred_reg = regressor.predict(X_test_reg)
+mse = mean_squared_error(y_test_reg, y_pred_reg)
+print(f'Erro quadrático médio (MSE): {mse:.2f}')
+
+# Análise de Séries Temporais
+# Supondo que 'tempo_volta' seja uma série temporal
+serie_temporal = dados_tabela['tempo_volta'].astype(float)
+
+# Criando o modelo ARIMA
+modelo_arima = ARIMA(serie_temporal, order=(5,1,0))
+modelo_fit = modelo_arima.fit(disp=0)
+
+# Previsão de 5 passos à frente
+previsao = modelo_fit.forecast(steps=5)
+print('Previsões de séries temporais:', previsao)
+
+# 3. Clusterização + Classificação
+# Clusterização com K-means
+X_cluster = dados_normais[['Coluna_1', 'Coluna_2']]
+kmeans = KMeans(n_clusters=3, random_state=42)
+dados_normais['cluster'] = kmeans.fit_predict(X_cluster)
+
+# Visualização dos clusters
+plt.scatter(X_cluster['Coluna_1'], X_cluster['Coluna_2'], c=dados_normais['cluster'], cmap='viridis')
+plt.title('Clusterização de Pilotos')
+plt.xlabel('Coluna 1')
+plt.ylabel('Coluna 2')
+plt.show()
+
+# Classificação baseada nos clusters
+clf_cluster = RandomForestClassifier(n_estimators=100, random_state=42)
+clf_cluster.fit(X_train_class, dados_normais['cluster'])
+
+# Previsão do cluster para novos dados
+novo_piloto = [[valor_1, valor_2]]  # Substitua pelos dados do novo piloto
+cluster_predito = clf_cluster.predict(novo_piloto)
+print(f'Cluster predito: {cluster_predito}')
+```
+
+### Explicação do Código
+
+1. **Extração de Dados**: Utiliza a função `extrair_dados_tabela` para ler o arquivo HTML e extrair dados de uma tabela, convertendo colunas relevantes em tipos numéricos.
+2. **Detecção de Anomalias**: `IsolationForest` é utilizado para detectar tempos de volta que estão fora do normal, e os dados normais são filtrados para análise posterior.
+3. **Classificação**: Um modelo Random Forest é treinado para classificar os pilotos em categorias de desempenho (rápido, médio, lento).
+4. **Regressão**: Um regressor Random Forest é utilizado para prever os tempos de volta dos pilotos com base em suas características.
+5. **Análise de Séries Temporais**: Um modelo ARIMA é aplicado para prever como os tempos de volta mudarão ao longo do tempo.
+6. **Clusterização**: K-means agrupa os pilotos em clusters com base nas métricas de desempenho, e um classificador Random Forest é utilizado para prever a qual cluster um novo piloto pertence.
+
+### Considerações Finais
+- **Preparação de Dados**: Certifique-se de que os dados no arquivo HTML estão organizados corretamente e que as colunas relevantes foram identificadas.
+- **Ajustes de Hiperparâmetros**: Você pode ajustar os hiperparâmetros dos modelos de acordo com a natureza dos seus dados para melhorar a performance.
+- **Exploração de Dados**: Considere realizar uma análise exploratória dos dados antes de aplicar os modelos, para entender melhor as características e padrões dos dados.
+
+Este pipeline cria uma solução integrada que pode ser adaptada a diferentes conjuntos de dados e tarefas relacionadas ao desempenho de pilotos.
+
