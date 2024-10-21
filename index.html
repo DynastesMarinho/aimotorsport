@@ -1,0 +1,1025 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Monitoramento de Corrida</title>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #e0e0e0;
+            /* Fundo neutro mais suave */
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            font-size: 18px;
+            /* Aumenta o tamanho geral da fonte */
+        }
+
+        h1,
+        h2 {
+            text-align: center;
+            color: #007bff;
+            /* Cor de destaque nos títulos */
+            margin-top: 10px;
+        }
+
+        h1 {
+            font-size: 3em;
+            /* Aumenta o tamanho da fonte dos títulos principais */
+            font-weight: 600;
+        }
+
+        h2 {
+            font-size: 2.2em;
+            /* Aumenta o tamanho da fonte dos subtítulos */
+        }
+
+        h3 {
+            font-size: 2em;
+            /* Aumenta o tamanho da fonte dos títulos menores */
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+            flex-wrap: nowrap;
+            /* Faz com que os elementos quebrem para a linha de baixo, se necessário */
+        }
+
+        .table-container {
+            width: 100%;
+            /* Faz com que a tabela ocupe toda a largura disponível */
+            min-width: 800px;
+            /* Define uma largura mínima para garantir que a tabela não fique muito pequena */
+            background-color: #ffffff;
+            /* Fundo branco */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            overflow-x: auto;
+            /* Adiciona uma barra de rolagem horizontal se necessário */
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+            table-layout: auto;
+            border-radius: 8px;
+            overflow: hidden;
+            table-layout: fixed;
+        }
+
+        th {
+            background-color: #007bff;
+            /* Cor azul para cabeçalhos */
+            color: #ffffff;
+            /* Cor do texto no cabeçalho */
+            padding: 16px;
+            /* Aumenta o espaçamento dos cabeçalhos */
+            text-align: left;
+            font-size: 1.1em;
+            overflow: hidden;
+            /* Evita que o conteúdo transborde */
+            /* Aumenta o tamanho da fonte dos cabeçalhos */
+            text-align: center;
+        }
+
+        td {
+            padding: 14px;
+            /* Aumenta o espaçamento das células */
+            border-bottom: 1px solid #dddddd;
+            color: #555;
+            /* Texto suave nas células */
+            text-align: center;
+            font-size: 1.1em;
+            /* Aumenta o tamanho da fonte das células */
+        }
+
+
+        /* Definindo larguras específicas para as colunas */
+        th:nth-child(1),
+        td:nth-child(1) {
+            width: 1%;
+            /* Exemplo: 5% para a coluna "Pos" */
+        }
+
+        th:nth-child(2),
+        td:nth-child(2) {
+            width: 1%;
+            /* Exemplo: 7% para a coluna "Nro." */
+        }
+
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 6%;
+            /* Exemplo: 15% para a coluna "Piloto" */
+        }
+
+        th:nth-child(4),
+        td:nth-child(4) {
+            width: 10%;
+            /* Exemplo: 15% para a coluna "Equipe" */
+        }
+
+        th:nth-child(5),
+        td:nth-child(5) {
+            width: 2%;
+            /* Exemplo: 10% para a coluna "Voltas" */
+        }
+
+        th:nth-child(8),
+        td:nth-child(8) {
+            width: 3%;
+        }
+
+        th:nth-child(10),
+        td:nth-child(10) {
+            width: 3%;
+        }
+
+        th:nth-child(11),
+        td:nth-child(11) {
+            width: 3%;
+        }
+
+        th:nth-child(12),
+        td:nth-child(12) {
+            width: 3%;
+        }
+
+        th:nth-child(14),
+        td:nth-child(14) {
+            width: 2%;
+        }
+
+        th:nth-child(15),
+        td:nth-child(15) {
+            width: 2%;
+        }
+
+        th:nth-child(16),
+        td:nth-child(16) {
+            width: 2%;
+        }
+
+        th:nth-child(17),
+        td:nth-child(17) {
+            width: 1%;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+            /* Alterna fundo nas linhas */
+        }
+
+        tr:hover {
+            background-color: #beb0b0;
+        }
+
+        /* Tabela responsiva */
+        .scrollable {
+            overflow-x: auto;
+        }
+
+        .display-container {
+            width: 25%;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-left: 20px;
+            position: sticky;
+            top: 20px;
+            height: calc(100vh - 40px);
+            overflow-y: auto;
+        }
+
+        /* Para melhorar a responsividade em telas menores */
+        @media (max-width: 1200px) {
+            .table-container {
+                min-width: 100%;
+                /* Redefine a largura mínima em telas menores */
+            }
+
+            table {
+                font-size: 0.9em;
+                /* Diminui o tamanho da fonte da tabela em telas menores */
+            }
+        }
+
+        .display-container h3 {
+            text-align: center;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        #commentDisplay {
+            position: fixed;
+            /* Permite posicionar o div em relação à janela de visualização */
+            top: 50%;
+            /* Posiciona a 50% do topo da página */
+            left: 50%;
+            /* Posiciona a 50% da largura da página */
+            transform: translate(-50%, -50%);
+            /* Centraliza o div */
+            background-color: #f5f5f5;
+            /* Cor de fundo suave */
+            border-radius: 10px;
+            /* Bordas arredondadas */
+            padding: 20px;
+            /* Espaçamento interno */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Sombra leve */
+            font-family: 'Arial', sans-serif;
+            /* Fonte legível */
+            font-size: 18px;
+            /* Tamanho de fonte confortável */
+            line-height: 1.6;
+            /* Melhor espaçamento entre linhas */
+            color: #333;
+            /* Cor do texto mais escura para contraste */
+            max-width: 600px;
+            /* Largura máxima da caixa */
+            z-index: 10;
+            /* Garante que o div esteja acima de outros elementos */
+            visibility: hidden;
+            /* Inicialmente invisível */
+        }
+
+        .comment-item {
+            margin: 5px 0;
+            padding: 5px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #commentator2 {
+            background-color: #f5f5f5;
+            /* Cor de fundo suave */
+            border-radius: 10px;
+            /* Bordas arredondadas */
+            padding: 20px;
+            /* Espaçamento interno */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* Sombra leve */
+            font-family: 'Arial', sans-serif;
+            /* Fonte legível */
+            font-size: 20px;
+            /* Tamanho de fonte confortável */
+            line-height: 1.6;
+            /* Melhor espaçamento entre linhas */
+            color: #333;
+            /* Cor do texto mais escura para contraste */
+            max-width: 800px;
+            /* Largura máxima da caixa */
+            margin: 20px auto;
+            /* Centraliza a div horizontalmente */
+            text-align: justify;
+            /* Justifica o texto */
+            border-left: 5px solid #007bff;
+            /* Barra lateral para destaque */
+        }
+
+        .race-name {
+            text-align: center;
+            color: #007bff;
+            margin-top: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .best-times {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 18px;
+            color: #333;
+        }
+
+        .filter-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .filter-select {
+            margin-left: 10px;
+            padding: 5px;
+            font-size: 16px;
+            border: 1px solid #007bff;
+            border-radius: 4px;
+        }
+
+        .ml-20 {
+            margin-left: 20px;
+            /* Margem para separar os filtros */
+        }
+
+        .update-button {
+            padding: 10px 15px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-left: 20px;
+            /* Margem à esquerda para o botão */
+        }
+
+        .update-button:hover {
+            background-color: #0056b3;
+            /* Cor mais escura no hover */
+        }
+
+        .update-button {
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Estilo do popup */
+        #popup {
+            display: none;
+            /* Oculto por padrão */
+            position: absolute;
+            /* Para flutuar em relação ao botão */
+            background-color: #fff;
+            border: 1px solid #ccc;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            z-index: 2;
+            width: 200px;
+            padding: 10px;
+            /* Opções de visualização */
+        }
+
+        #popup h2 {
+            margin-top: 0;
+            font-size: 16px;
+        }
+
+        #commentator {
+            position: fixed;
+            /* Fixa o elemento em relação à janela do navegador */
+            top: 50%;
+            /* Posiciona 50% da altura da tela */
+            left: 50%;
+            /* Posiciona 50% da largura da tela */
+            transform: translate(-50%, -50%);
+            /* Centraliza o elemento */
+            background-color: rgba(0, 0, 0, 0.7);
+            /* Fundo semi-transparente */
+            color: white;
+            /* Cor do texto */
+            padding: 15px;
+            /* Espaçamento interno */
+            border-radius: 8px;
+            /* Bordas arredondadas */
+            z-index: 1000;
+            /* Garante que fique acima de outros elementos */
+            display: none;
+            /* Inicialmente escondido */
+        }
+
+        .performance-analysis {
+            border: 1px solid #ccc;
+            padding: 15px;
+            margin: 20px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+        }
+
+        .performance-analysis h2 {
+            color: #2c3e50;
+        }
+
+        .performance-analysis ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .performance-analysis li {
+            margin: 5px 0;
+        }
+    </style>
+    <style>
+        #lapTimeChart {
+            width: 100%;
+            /* ou qualquer largura desejada */
+            height: 400px;
+            /* ou qualquer altura desejada */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="datetime" style="position: absolute; top: 20px; right: 20px; font-size: 16px; color: #333;"></div>
+
+    <h1>IA para Motorsport</h1>
+    <h3 class="race-name">Nome da Corrida:</h3>
+
+    <div class="filter-container">
+        <button id="AtualizarButton" onclick="loadRaceData()" class="update-button">Atualizar dados</button>
+        <label for="driverSelect">Filtrar por Driver:</label>
+        <select id="driverSelect" class="filter-select">
+            <option value="all">Todos</option>
+            <option value="R. Zonta">R. Zonta</option>
+            <option value="R. Suzuki">R. Suzuki</option>
+            <option value="G. Casagrande">G. Casagrande</option>
+            <option value="R. Barrichello">R. Barrichello</option>
+            <option value="E. Barrichello">E. Barrichello</option>
+            <option value="T. Camilo">T. Camilo</option>
+            <option value="L. Foresti">L. Foresti</option>
+            <option value="N. Piquet Jr">N. Piquet Jr</option>
+            <option value="F. Massa">F. Massa</option>
+            <option value="R. Mauricio">R. Mauricio</option>
+            <option value="B. Baptista">B. Baptista</option>
+            <option value="N. Piquet Jr">N. Piquet Jr</option>
+            <option value="A. Khodair">A. Khodair</option>
+            <option value="C. Ramos">C. Ramos</option>
+            <option value="C. Bueno">C. Bueno</option>
+            <option value="L. Kohl ">L. Kohl </option>
+            <option value="E. Elias">E. Elias</option>
+            <option value="J. Campos">J. Campos</option>
+            <option value="F. Baptista">F. Baptista</option>
+            <option value="A. Abreu">A. Abreu</option>
+            <option value="D. Serra">D. Serra</option>
+            <option value="F. Fraga">F. Fraga</option>
+
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+
+        <label for="lapSelect" class="ml-20">Filtrar por LAP:</label>
+        <select id="lapSelect" class="filter-select">
+            <option value="all">Todas</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <!-- Adicione mais opções conforme necessário -->
+        </select>
+
+        <button id="MelhorS1S2S3" onmouseover="mostrarDadosMelhoresSetores()" onmouseout="limparMensagem()"
+            class="update-button">Melhor S1, S2 e S3</button>
+        <button id="MelhoresTempos" onmouseover="mostrarDadosMelhoresVoltas()" onmouseout="limparMensagem()"
+            class="update-button">Quem esta fazendo os melhores tempos</button>
+        <button id="MelhoresTemposPrevistos" onmouseover="mostrarDadosMelhoresTP()" onmouseout="limparMensagem()"
+            class="update-button">Quem tem mais chance de melhorar o tempo</button>
+        <button id="PITIN" onmouseover="mostrarDadosPITIN()" onmouseout="limparMensagem()" class="update-button">Voltas
+            em PIT IN</button>
+    </div>
+
+    <div class="container">
+        <div class="table-container">
+            <table id="raceTable">
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Nro.</th>
+                        <th>Piloto</th>
+                        <th>Equipe</th>
+                        <th>Lap</th>
+                        <th>Tempo Total</th>
+                        <th>Diff</th>
+                        <th>Gap</th>
+                        <th>Last Lap</th>
+                        <th>S1</th>
+                        <th>S2</th>
+                        <th>S3</th>
+                        <th>Melhor Volta</th>
+                        <th>Entrada</th>
+                        <th>Veloc.</th>
+                        <th>Veloc. Máx</th>
+                        <th>PIT</th>
+                        <th>Tempo Prev</th> <!-- Nova coluna -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Repita para as outras linhas -->
+                </tbody>
+            </table>
+        </div>
+
+        <div class="display-container">
+            <h3>Comentário da Corrida</h3>
+            <div id="commentDisplay">Passe o mouse sobre uma linha para ver o comentário.</div>
+            <div id="commentator">Passe o mouse sobre as opções acima para maiores detalhes</div>
+            <div id="commentator2">A Inteligência Artificial (IA) revoluciona o live timing no motorsport ao oferecer
+                análises preditivas e preemptivas em tempo real. Com IA, é possível prever tempos de volta, desgaste de
+                pneus, consumo de combustível e riscos de falhas mecânicas. A tecnologia detecta padrões de desempenho,
+                sugere estratégias otimizadas, automatiza decisões táticas (como pit stops e ajustes de ritmo) e melhora
+                a visualização de dados com alertas inteligentes e gráficos. Além disso, a IA realiza simulações
+                contínuas para antecipar cenários e ajustar estratégias, aprendendo e evoluindo com cada corrida.
+                Este site exemplifica o uso da tecnologia e da Inteligência Artificial (IA) para monitorar e otimizar o
+                tempo real de uma prova de competição. A IA não apenas analisa os dados, mas também melhora a tomada de
+                decisão durante a corrida, proporcionando uma experiência mais dinâmica e precisa.
+            </div>
+        </div>
+
+    </div>
+
+    <canvas id="lapTimeChart"></canvas>
+
+    <script>
+        function timeToMilliseconds(time) {
+            if (!time) return 0; // Retorna 0 se o tempo não estiver definido
+
+            const parts = time.split(':'); // Divide o tempo em minutos e segundos
+            if (parts.length !== 2) {
+                console.error(`Formato de tempo inválido: ${time}`);
+                return 0; // Retorna 0 para formatos inválidos
+            }
+
+            const minutes = parseInt(parts[0], 10);
+            const secondsParts = parts[1].split('.'); // Divide os segundos em segundos e milissegundos
+            const seconds = parseInt(secondsParts[0], 10) || 0;
+            const milliseconds = secondsParts[1] ? parseInt(secondsParts[1], 10) : 0;
+
+            return (minutes * 60 + seconds) * 1000 + milliseconds; // Converte tudo para milissegundos
+        }
+
+        function createLapTimeChart(data) {
+            console.log("0");
+
+            // Extraindo dados de lapData ou do parâmetro data
+            const lapData = data.laps || [
+                { lap: 1, lastLap: '00:01:15.123', tempoPrev: '00:01:14.456' },
+                { lap: 2, lastLap: '00:01:14.789', tempoPrev: '00:01:13.321' },
+                { lap: 3, lastLap: '00:01:16.000', tempoPrev: '00:01:14.000' },
+                // Adicione mais voltas conforme necessário
+            ];
+
+            const laps = lapData.map(item => item.lap);
+            const lastLapTimes = lapData.map(item => timeToMilliseconds(item.lastLap));
+            const predictedTimes = lapData.map(item => timeToMilliseconds(item.tempoPrev));
+
+            // Verifique se os dados estão definidos e são válidos
+            if (!laps.length || !lastLapTimes.length || !predictedTimes.length) {
+                console.error("Dados de lapTimeChart não estão disponíveis.");
+                return; // Sai da função se os dados não estiverem disponíveis
+            }
+
+            const ctx = document.getElementById('lapTimeChart').getContext('2d');
+            const lapTimeChart = new Chart(ctx, {
+                type: 'line',
+                data: {
+                    labels: laps,
+                    datasets: [
+                        {
+                            label: 'Última Volta',
+                            data: lastLapTimes,
+                            borderColor: 'rgba(75, 192, 192, 1)',
+                            fill: false,
+                        },
+                        {
+                            label: 'Tempo Previsto',
+                            data: predictedTimes,
+                            borderColor: 'rgba(255, 99, 132, 1)',
+                            fill: false,
+                        }
+                    ]
+                },
+                options: {
+                    scales: {
+                        y: {
+                            title: {
+                                display: true,
+                                text: 'Tempo (ms)',
+                            },
+                            ticks: {
+                                callback: function (value) {
+                                    // Converter ms de volta para HH:mm:ss.sss
+                                    const minutes = String(Math.floor(value / 60000)).padStart(2, '0');
+                                    const seconds = String(Math.floor((value % 60000) / 1000)).padStart(2, '0');
+                                    const milliseconds = String(value % 1000).padStart(3, '0');
+                                    return `${minutes}:${seconds}.${milliseconds}`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function timeToMilliseconds(time) {
+            const parts = time.split(':');
+            const minutes = parseInt(parts[1], 10);
+            const seconds = parseFloat(parts[2]);
+            return (parseInt(parts[0], 10) * 3600000) + (minutes * 60000) + (seconds * 1000);
+        }
+
+    </script>
+    <script>
+
+        const commentatorDiv = document.getElementById('commentator');
+        const commentatornewDiv = document.getElementById('newDiv');
+        const newDiv = document.createElement('div');
+
+        // Mostra o div quando o mouse está sobre o botão
+        function mostrarCommentario() {
+            //commentatorDiv.style.display = 'block';
+            //commentatornewDiv.style.display = 'block';
+            // Para mostrar o elemento novamente
+            newDiv.style.visibility = 'visible';
+        }
+
+        // Esconde o div quando o mouse sai do botão
+        function esconderCommentario() {
+            //commentatorDiv.style.display = 'none';
+            //commentatornewDiv.style.display = 'none';
+            // Para esconder o elemento
+            newDiv.style.visibility = 'hidden';
+
+        }
+
+        // const pitInButton = document.getElementById('PITIN');
+        // pitInButton.addEventListener('mouseover', mostrarCommentario);
+        // pitInButton.addEventListener('mouseout', esconderCommentario);
+
+        // const MelhoresTemposButton = document.getElementById('MelhoresTempos');
+        // MelhoresTemposButton.addEventListener('mouseover', mostrarCommentario);
+        // MelhoresTemposButton.addEventListener('mouseout', esconderCommentario);
+
+        // const MelhorS1S2S3Button = document.getElementById('MelhorS1S2S3');
+        // MelhorS1S2S3Button.addEventListener('mouseover', mostrarCommentario);
+        // MelhorS1S2S3Button.addEventListener('mouseout', esconderCommentario);
+
+
+        // Função para mostrar dados do PIT IN
+        async function mostrarDadosPITIN() {
+            try {
+                const response = await fetch('http://localhost:3000/pitin'); // Lê o arquivo JSON
+                const dados = await response.json(); // Converte a resposta em JSON
+
+                // Formata os dados para exibição
+                const mensagens = dados.map(item => `${item.Driver} fez PIT IN na volta ${item.Volta}`).join('<br>');
+
+                // Cria um novo elemento para exibir as mensagens
+                //const newDiv = document.createElement('div');
+                newDiv.innerHTML = mensagens;
+                newDiv.style.position = 'absolute';
+                newDiv.style.top = '250px'; // Defina a posição desejada
+                newDiv.style.left = '1860px';
+                newDiv.style.border = '1px solid #ccc';
+                newDiv.style.padding = '10px';
+                newDiv.style.backgroundColor = 'white';
+                newDiv.style.backgroundColor = '#f5f5f5';
+                newDiv.style.color = '#333';
+                newDiv.style.borderRadius = '10px';
+                newDiv.style.padding = '20px';    
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.fontSize = '18px';
+                newDiv.style.fontFamily = "'Arial', sans-serif";
+                newDiv.style.lineHeight = '1.6';
+                newDiv.style.color = '#333';
+                // Adiciona a nova div ao body ou a um contêiner específico
+                document.body.appendChild(newDiv);
+
+                // Exibe as mensagens na div
+                document.getElementById('commentator').innerHTML = mensagens;
+            } catch (error) {
+                console.error('Erro ao carregar os dados:', error);
+                document.getElementById('commentator').innerText = 'Erro ao carregar os dados.';
+            }
+        }
+
+        // Função para mostrar dados 
+        async function mostrarDadosMelhoresSetores() {
+            try {
+                const response = await fetch('http://localhost:3000/melhoressetores'); // Lê o JSON
+                const dados = await response.json(); // Converte a resposta em JSON
+
+                // Formata os dados para exibição
+                const melhoresPilotos = dados.melhores_pilotos;
+                const melhoresTempos = dados.melhores_tempos;
+
+                // Cria uma string formatada para exibir as melhores voltas
+                const mensagens = `
+                    Melhores Setores:<br>
+                    S1: ${melhoresPilotos.S1} com ${melhoresTempos.S1.toFixed(3)} segundos<br>
+                    S2: ${melhoresPilotos.S2} com ${melhoresTempos.S2.toFixed(3)} segundos<br>
+                    S3: ${melhoresPilotos.S3} com ${melhoresTempos.S3.toFixed(3)} segundos
+                `;
+
+                // Cria um novo elemento para exibir as mensagens
+                //const newDiv = document.createElement('div');
+                newDiv.innerHTML = mensagens;
+                newDiv.style.position = 'absolute';
+                newDiv.style.top = '250px'; // Defina a posição desejada
+                newDiv.style.left = '910px';
+                newDiv.style.border = '1px solid #ccc';
+                newDiv.style.padding = '10px';
+                newDiv.style.backgroundColor = 'white';
+                newDiv.style.padding = '10px';
+                newDiv.style.backgroundColor = 'white';
+                newDiv.style.backgroundColor = '#f5f5f5';
+                newDiv.style.color = '#333';
+                newDiv.style.borderRadius = '10px';
+                newDiv.style.padding = '20px';    
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.fontSize = '18px';
+                newDiv.style.fontFamily = "'Arial', sans-serif";
+                newDiv.style.lineHeight = '1.6';
+                newDiv.style.color = '#333';
+
+                // Adiciona a nova div ao body ou a um contêiner específico
+                document.body.appendChild(newDiv);
+
+                // Exibe as mensagens na div
+                document.getElementById('commentator').innerHTML = mensagens;
+            } catch (error) {
+                console.error('Erro ao carregar os dados:', error);
+                document.getElementById('commentator').innerText = 'Erro ao carregar os dados.';
+            }
+        }
+
+        async function mostrarDadosMelhoresVoltas() {
+            try {
+                const response = await fetch('http://localhost:3000/melhoresvoltas'); // Lê o JSON
+                const dados = await response.json(); // Converte a resposta em JSON
+
+                // Cria um array a partir do objeto de dados
+                const melhoresVoltasArray = Object.entries(dados).map(([piloto, [volta, tempo]]) => ({
+                    piloto,
+                    volta,
+                    tempo: tempoParaSegundos(tempo), // Converte o tempo para segundos para ordenação
+                    tempoFormatado: tempo // Armazena o tempo formatado
+                }));
+
+                // Ordena o array com base no tempo em ordem crescente
+                melhoresVoltasArray.sort((a, b) => a.tempo - b.tempo);
+
+                // Cria uma string formatada para exibir as melhores voltas
+                let mensagens = 'Melhores Voltas:<br>';
+
+                // Itera sobre o array ordenado
+                melhoresVoltasArray.forEach(({ piloto, volta, tempoFormatado }) => {
+                    mensagens += `${piloto} fez a volta ${volta} com o tempo ${tempoFormatado}<br>`;
+                });
+
+                // Cria um novo elemento para exibir as mensagens
+                //const newDiv = document.createElement('div');
+                newDiv.innerHTML = mensagens;
+                newDiv.style.position = 'absolute';
+                newDiv.style.top = '250px'; // Defina a posição desejada
+                newDiv.style.left = '1110px';
+                newDiv.style.border = '1px solid #ccc';
+                newDiv.style.padding = '10px';
+                newDiv.style.backgroundColor = 'white';
+                newDiv.style.padding = '10px';
+                newDiv.style.backgroundColor = 'white';
+                newDiv.style.backgroundColor = '#f5f5f5';
+                newDiv.style.color = '#333';
+                newDiv.style.borderRadius = '10px';
+                newDiv.style.padding = '20px';    
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.fontSize = '18px';
+                newDiv.style.fontFamily = "'Arial', sans-serif";
+                newDiv.style.lineHeight = '1.6';
+                newDiv.style.color = '#333';
+
+
+                // Adiciona a nova div ao body ou a um contêiner específico
+                document.body.appendChild(newDiv);
+
+                // Exibe as mensagens na div
+                document.getElementById('commentator').innerHTML = mensagens;
+            } catch (error) {
+                console.error('Erro ao carregar os dados:', error);
+                document.getElementById('commentator').innerText = 'Erro ao carregar os dados.';
+            }
+        }
+
+        async function mostrarDadosMelhoresTP() {
+            try {
+                const response = await fetch('http://localhost:3000/melhorestp'); // Lê o JSON
+                const dados = await response.json(); // Converte a resposta em JSON
+
+                // Cria um array a partir do objeto de dados
+                const melhoresVoltasArray = Object.entries(dados).map(([piloto, tempo]) => ({
+                    piloto,
+                    tempo: tempoParaSegundos(tempo), // Converte o tempo para segundos para ordenação
+                    tempoFormatado: tempo // Armazena o tempo formatado
+                }));
+
+                // Ordena o array com base no tempo em ordem crescente
+                melhoresVoltasArray.sort((a, b) => a.tempo - b.tempo);
+
+                // Cria uma string formatada para exibir as melhores voltas
+                let mensagens = 'Melhores tempos previstos:<br>';
+
+                // Itera sobre o array ordenado
+                melhoresVoltasArray.forEach(({ piloto, tempoFormatado }) => {
+                    mensagens += `${piloto} com o tempo ${tempoFormatado}<br>`;
+                });
+
+                // Cria um novo elemento para exibir as mensagens
+                //const newDiv = document.createElement('div');
+                newDiv.innerHTML = mensagens;
+                newDiv.style.position = 'absolute';
+                newDiv.style.top = '250px'; // Defina a posição desejada
+                newDiv.style.left = '1470px';
+                newDiv.style.border = '1px solid #ccc';
+                newDiv.style.padding = '10px';
+                newDiv.style.backgroundColor = 'white';
+                newDiv.style.padding = '10px';
+                newDiv.style.backgroundColor = 'white';
+                newDiv.style.backgroundColor = '#f5f5f5';
+                newDiv.style.color = '#333';
+                newDiv.style.borderRadius = '10px';
+                newDiv.style.padding = '20px';    
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.1)';
+                newDiv.style.fontSize = '18px';
+                newDiv.style.fontFamily = "'Arial', sans-serif";
+                newDiv.style.lineHeight = '1.6';
+                newDiv.style.color = '#333';
+
+
+                // Adiciona a nova div ao body ou a um contêiner específico
+                document.body.appendChild(newDiv);
+            } catch (error) {
+                console.error('Erro ao carregar os dados:', error);
+                document.getElementById('commentator').innerText = 'Erro ao carregar os dados.';
+            }
+        }
+
+
+
+        // Função auxiliar para converter tempo no formato "MM:SS.SSS" para segundos
+        function tempoParaSegundos(tempoStr) {
+            const [minutos, segundos] = tempoStr.split(':');
+            return parseFloat(minutos) * 60 + parseFloat(segundos);
+        }
+
+        function limparMensagem() {
+            document.getElementById('commentator').innerText = 'Passe o mouse sobre as opções acima para maiores detalhes';
+        }
+    </script>
+
+    <script>
+        function loadRaceData() {
+            const lapSelect = document.getElementById('lapSelect');
+            const driverSelect = document.getElementById('driverSelect');
+
+            const lapFilter = lapSelect.value;
+            const driverFilter = driverSelect.value;
+
+            // Construa a URL da API com os parâmetros de filtro
+            const url = `http://localhost:3000/statuscorrida?lap=${lapFilter}&driver=${encodeURIComponent(driverFilter)}`;
+
+            // Faça a chamada para a API
+            fetch(url)
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Erro ao buscar dados');
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Aqui você pode atualizar a tabela ou o elemento com os dados recebidos
+                    console.log(data); // Para ver os dados no console
+                    //createLapTimeChart(data);
+
+                    // Exemplo: Atualizar a tabela com os dados filtrados (implemente conforme necessário)
+                    loadTableData(data);
+                })
+                .catch(error => {
+                    console.error('Ocorreu um erro:', error);
+                });
+        }
+
+        function converterMilisegundosParaTempo(milisegundos) {
+            // Verifica se o valor é negativo
+            if (milisegundos < 0) {
+                return "00:00.000"; // Retorna 0 se o valor for negativo
+            }
+
+            // Calcula minutos, segundos e milissegundos
+            const minutos = Math.floor(milisegundos / (60 * 1000));
+            const segundos = Math.floor((milisegundos % (60 * 1000)) / 1000);
+            const millis = milisegundos % 1000;
+
+            // Formata a string para 'mm:ss.sss'
+            return `${String(minutos).padStart(2, '0')}:${String(segundos).padStart(2, '0')}.${String(millis).padStart(3, '0')}`;
+        }
+
+        function loadTableData(data) {
+            const lapSelect = document.getElementById('lapSelect');
+            const driverSelect = document.getElementById('driverSelect');
+
+            const lapFilter = lapSelect.value;
+            const driverFilter = driverSelect.value;
+
+            const tableBody = document.querySelector("#raceTable tbody");
+            tableBody.innerHTML = '';
+
+            data.forEach(item => {
+                const row = document.createElement("tr");
+                const expectedTime = item['Tempo Previsto'] || 'N/A';
+
+                for (const key in item) {
+                    if (key !== 'Comentários') { // Não adiciona a célula de comentários
+                        const cell = document.createElement("td");
+                        cell.textContent = item[key];
+                        row.appendChild(cell);
+                    }
+                }
+
+                if (driverFilter != "all") {
+                    row.addEventListener("mouseover", () => {
+                        const commentDisplay = document.getElementById("commentDisplay");
+                        commentDisplay.innerHTML = '';
+                        const comments = item.Comentários || ["Sem comentário disponível"];
+                        comments.forEach(comment => {
+                            const commentItem = document.createElement("div");
+                            commentItem.className = 'comment-item';
+                            commentItem.textContent = comment;
+                            commentDisplay.appendChild(commentItem);
+                        });
+                        commentDisplay.style.visibility = "visible"; // Torna visível ao passar o mouse
+                    });
+
+                    row.addEventListener("mouseout", () => {
+                        const commentDisplay = document.getElementById("commentDisplay");
+                        commentDisplay.style.visibility = "hidden"; // Esconde ao sair
+                    });
+                }
+
+                tableBody.appendChild(row);
+            });
+        }
+
+        function parseTime(timeStr) {
+            if (!timeStr || timeStr === "0") return Infinity; // Ignorar zeros ou valores nulos
+
+            const [minutes, seconds] = timeStr.split(':');
+            const [secs, millis] = seconds.split('.');
+
+            return (parseInt(minutes) * 60000) + (parseInt(secs) * 1000) + (parseInt(millis));
+        }
+
+        function formatTime(time) {
+            if (time === Infinity) return "N/A"; // Caso nenhum tempo válido seja encontrado
+
+            const minutes = Math.floor(time / 60000);
+            const seconds = Math.floor((time % 60000) / 1000);
+            const milliseconds = time % 1000;
+
+            return `${minutes}:${seconds.toString().padStart(2, '0')}.${milliseconds.toString().padStart(3, '0')}`;
+        }
+
+        function updateDateTime() {
+            const now = new Date();
+            const formattedDate = now.toLocaleDateString('pt-BR', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric'
+            });
+            const formattedTime = now.toLocaleTimeString('pt-BR');
+            document.getElementById('datetime').textContent = `${formattedDate} ${formattedTime}`;
+        }
+
+        window.onload = () => {
+            loadRaceData();
+        };
+        setInterval(updateDateTime, 100);
+        setInterval(loadRaceData, 100);
+    </script>
+</body>
+
+</html>
